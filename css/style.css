@@ -1,0 +1,377 @@
+:root{
+    --background-button: #0B0E66;
+    --border_text-button: #26C7EA;
+    --one-text: #94CFFF;
+    --color: #FFF;
+    --quete-color: #0A3853;
+    --quote-men: #000;
+    --h: #0B0E66;
+    }
+    body{
+    font-family: Inter;
+    }
+    .container{
+    width: 1056px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+    }
+    
+    
+    
+    .header{
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
+    background-image: linear-gradient( rgba(43, 74, 97, 0.87),  rgba(43, 74, 97, 0.87)), url(../img/heder.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .header-box{
+    display: flex;
+    align-items: center;
+    }
+    .header-logo{
+    width: 186px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    }
+    .header-list{
+        display: flex;
+        gap: 38px;
+    }
+    .header-text{
+    color: var(--color);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+    .header-item:hover{
+    color: var(--one-text);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2px;
+    }
+    
+    .header-link{
+    color: #FFF;
+    text-align: center;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .header-button{
+    color: var(--border_text-button);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px 0px;
+    border: 3px solid var(--border_text-button);
+    background: var(--h);
+    
+    width: 141px;
+    height: 41.694px;
+    flex-shrink: 0;;
+    margin-left: auto;
+    margin-right: 49px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .hero{
+    padding-top: 180px;
+    padding-bottom: 179px;
+    background-image: url(../img/group.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .hero > .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .hero-text{
+    color: var(--color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 298px;
+    
+    flex-shrink: 0;
+    }
+    .hero-img{
+    width: 152px;
+    height: 40px;
+    margin-left: 50px;
+    }
+    .hero-button{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 31px;
+    border-radius: 45px 0px;
+    border: 3px solid var(--border_text-button);
+    background: var(--h);
+    color: var(--border_text-button);
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 42px;
+    }
+    .hero-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+    }
+    .hero-icon:hover{
+        color: tomato;
+    }
+    .quote{
+    padding-top: 75px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    .quote-text{
+    color: #141414;
+     text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+    }
+    .quote-img{
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+    }
+    .quote-men{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .button{
+    padding-top: 330px;
+    padding-bottom: 331px;
+    background-image: url(../img/rectangle.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    }
+    .button-btn{
+    color: var(--border_text-button);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 45px 0px;
+    border: 3px solid var(--border_text-button);
+    background: var(--h);
+    padding: 25px 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .quotes{
+    padding-top: 75px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    .quotes-text{
+        color: #141414;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+    }
+    .quotes-img{
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+    }
+    .quotes-men{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .translation{
+    padding-top: 57px;
+    padding-bottom: 58px;
+    background-image: url(../img/angle.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .translation-title{
+    color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 45px;
+    }
+    .translation-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .translation-item{
+    width: 320px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.70);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .translation-text{
+        color: #141414;
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+    display: inline-block;
+    }
+    .translation-img{
+    width: 152px;
+    height: 40px;
+    }
+    .quot{
+    padding-top: 75px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    .quot-text{
+    color: #141414;
+     text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+    }
+    .quot-img{
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+    }
+    .quot-men{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    .footer{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-image: linear-gradient( rgba(43, 74, 97, 0.87),  rgba(43, 74, 97, 0.87)), url(../img/heder.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .footer-box{
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+    .footer-logo{
+    width: 183px;
+    height: 70px;
+    }
+    .footer-img{
+    width: 2px;
+    height: 153px;
+    }
+    .footer-a{
+    color: var(--color);
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
